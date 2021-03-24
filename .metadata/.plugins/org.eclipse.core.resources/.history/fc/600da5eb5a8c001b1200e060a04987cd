@@ -1,0 +1,5 @@
+package org.simplilearn.workshop.repository;
+
+public interface CustomerRepository {
+
+}

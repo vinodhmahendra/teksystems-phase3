@@ -1,0 +1,15 @@
+package org.simplilearn.workshop.service;
+
+import java.util.List;
+
+import org.simplilearn.workshop.model.Customer;
+
+public class CustomerServiceImpl implements CustomerService {
+
+	@Override
+	public List<Customer> retrieveAllCustomers() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

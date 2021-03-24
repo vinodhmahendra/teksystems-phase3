@@ -1,0 +1,22 @@
+package org.simplilearn.workshop.repository;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.simplilearn.workshop.model.Customer;
+
+public class ListCustomerRepositoryImpl implements CustomerRepository {
+	
+	private static List<Customer> customers = new ArrayList<Customer>();
+	
+	static {
+		customers.add(new Customer(101, "vinodh", "vinodh@simplilearn.com", "1234567890"));
+	}
+
+	@Override
+	public List<Customer> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
