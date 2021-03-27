@@ -4,7 +4,9 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-        <bean name="customerRepository" class="org.simplilearn.workshop.repository.ListCustomerRepositoryImpl"/>
+        <bean name="customerRepository" class="org.simplilearn.workshop.repository.ListCustomerRepositoryImpl"
+        	scope="singleton"
+        />
         
         <bean name="customerService" class="org.simplilearn.workshop.service.CustomerServiceImpl" autowire="byType">
         	
