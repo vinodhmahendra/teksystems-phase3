@@ -206,4 +206,5 @@
   <public publicId="-//Hibernate/Hibernate Configuration DTD 3.0//EN" uri="file:/C:/eclipse/eclipse/../../Users/admin/.p2/pool/plugins/org.hibernate.eclipse.mapper_5.4.11.v20201008-1726/dtd/hibernate-configuration-3.0.dtd" webURL="http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd"/>
   <public publicId="-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" uri="file:/C:/eclipse/eclipse/../../Users/admin/.p2/pool/plugins/org.hibernate.eclipse.mapper_5.4.11.v20201008-1726/dtd/hibernate-reverse-engineering-3.0.dtd"/>
   <public publicId="-//Red Hat, Inc.//DTD Meta 1.0//EN" uri="file:/C:/Users/admin/.p2/pool/plugins/org.jboss.tools.common.model_3.15.100.v20210112-1443/schema/meta.dtd"/>
+  <public publicId="-//LOG4J//DTD LOG4J//EN" uri="jar:file:/C:/eclipse/eclipse/../../Users/admin/.p2/pool/plugins/org.springsource.ide.eclipse.commons.ui_4.10.0.202103111026.jar!/dtd/log4j-1.2.dtd" webURL="https://logging.apache.org/log4j/1.2/apidocs/org/apache/log4j/xml/doc-files/log4j.dtd"/>
 </catalog>
