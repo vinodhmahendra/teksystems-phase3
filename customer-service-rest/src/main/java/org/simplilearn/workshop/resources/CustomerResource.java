@@ -3,6 +3,8 @@ package org.simplilearn.workshop.resources;
 import java.net.URI;
 import java.util.List;
 
+import javax.validation.Valid;
+
 import org.simplilearn.workshop.exceptions.CustomerNotFoundException;
 import org.simplilearn.workshop.model.Customer;
 import org.simplilearn.workshop.service.CustomerService;
@@ -44,7 +46,7 @@ public class CustomerResource {
 	//input - details of customer
 	//output - CREATED & Return the created URI
 	@PostMapping("/customers")
-	public ResponseEntity<Object> createCustomer(@RequestBody Customer theCustomer){
+	public ResponseEntity<Object> createCustomer(@Valid @RequestBody Customer theCustomer){
 		Customer savedCustomer = customerService.saveCustomer(theCustomer);
 		
 		URI location = ServletUriComponentsBuilder
